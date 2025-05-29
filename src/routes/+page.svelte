@@ -1,5 +1,5 @@
 <script>
-    let {data} = $props(); // This is the list of fetched pokemon
+    let {data} = $props(); // This is the list of fetched pokemon; it comes from the +page.js file
 
     // Since these are reactive, they will update when the user selects different pokemon
     let selectedPokemon1 = $state();
